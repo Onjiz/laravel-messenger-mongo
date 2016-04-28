@@ -3,10 +3,10 @@
 namespace Cmgmyr\Messenger\Models;
 
 use App\User;
-use Illuminate\Database\Eloquent\Model as Eloquent;
-use Illuminate\Database\Eloquent\SoftDeletes;
+use Jenssegers\Mongodb\Eloquent\Model;
+use Jenssegers\Mongodb\Eloquent\SoftDeletes;
 
-class Participant extends Eloquent
+class Participant extends Model
 {
     use SoftDeletes;
 

@@ -3,9 +3,9 @@
 namespace Cmgmyr\Messenger\Models;
 
 use App\User;
-use Illuminate\Database\Eloquent\Model as Eloquent;
+use Jenssegers\Mongodb\Eloquent\Model;
 
-class Message extends Eloquent
+class Message extends Model
 {
     /**
      * The database table used by the model.
