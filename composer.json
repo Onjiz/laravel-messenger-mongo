@@ -1,5 +1,5 @@
 {
-    "name": "meSingh/messenger",
+    "name": "meSingh/laravel-messenger-mongo",
     "description": "Simple user messaging tool for Laravel, with mongo support.",
     "keywords": ["laravel", "messenger", "messaging", "user messaging"],
     "license": "MIT",
@@ -21,8 +21,7 @@
             "email": "im@msingh.me",
             "homepage": "https://github.com/meSingh",
             "role": "Developer"
-        },
-        
+        }
     ],
     "require": {
         "php": ">=5.4.0",
