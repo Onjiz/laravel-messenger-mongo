@@ -1,5 +1,5 @@
 {
-    "name": "meSingh/laravel-messenger-mongo",
+    "name": "mesingh/laravel-messenger-mongo",
     "description": "Simple user messaging tool for Laravel, with mongo support.",
     "keywords": ["laravel", "messenger", "messaging", "user messaging"],
     "license": "MIT",
