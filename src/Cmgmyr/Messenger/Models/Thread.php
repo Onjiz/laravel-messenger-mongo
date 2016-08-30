@@ -3,11 +3,11 @@
 namespace Cmgmyr\Messenger\Models;
 
 use Carbon\Carbon;
-use Illuminate\Database\Eloquent\Model as Eloquent;
+use Jenssegers\Mongodb\Eloquent\Model;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
-use Illuminate\Database\Eloquent\SoftDeletes;
+use Jenssegers\Mongodb\Eloquent\SoftDeletes;
 
-class Thread extends Eloquent
+class Thread extends Model
 {
     use SoftDeletes;
 

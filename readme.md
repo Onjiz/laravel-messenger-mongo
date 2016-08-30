@@ -6,8 +6,8 @@
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/cmgmyr)
 
-# Laravel Messenger
-This package will allow you to add a full user messaging system into your Laravel application.
+# Laravel Messenger (Mongo Implementation)
+This package will allow you to add a full user messaging system into your Laravel application. Exactly the same as the existing Laravel-Messenger package but works with Laravel Mongo implmentations.
 
 ## Leave some feedback
 [How are you using laravel-messenger?](https://github.com/cmgmyr/laravel-messenger/issues/55)
