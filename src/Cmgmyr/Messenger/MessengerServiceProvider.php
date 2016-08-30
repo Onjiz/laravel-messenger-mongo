@@ -18,8 +18,8 @@ class MessengerServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            base_path('vendor/cmgmyr/messenger/src/config/config.php') => config_path('messenger.php'),
-            base_path('vendor/cmgmyr/messenger/src/migrations') => base_path('database/migrations'),
+            __DIR__ . '/../../config/config.php' => config_path('messenger.php'),
+            __DIR__ . '/../../migrations' => base_path('database/migrations'),
         ]);
 
         $this->setMessengerModels();
@@ -34,7 +34,7 @@ class MessengerServiceProvider extends ServiceProvider
     public function register()
     {
         $this->mergeConfigFrom(
-            base_path('vendor/cmgmyr/messenger/src/config/config.php'), 'messenger'
+            __DIR__ . '/../../config/config.php', 'messenger'
         );
     }
 
